@@ -1,0 +1,201 @@
+body
+{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    background-color: #f3f3f3;
+    font-family: 'Merriweather', serif;
+}
+
+/*div{
+    background-color: #e4f9f5;
+}*/
+p
+{
+    line-height: 2;
+}
+span
+{
+    text-decoration: underline;
+}
+h1
+{
+  /*  font-size: 90px;*/
+    /*font-size: 5.622em;
+    font-size: 562.2%;/* it make dyna,ic size
+    /*
+    so 100% is equavalent to 16px so we just need to calculate for 90px which is (90/16S)*100...
+    /*while we use % it make element default*/
+    font-size: 5.622rem;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;   
+}
+h2
+{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    padding: 10px;
+}
+h3
+{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+body
+{
+    margin: 0px;
+}
+hr
+{
+    border: dotted rgb(213, 210, 210) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.top-container
+{ 
+    background-color: #d2f7f0;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container
+{
+   margin: 100px 0;
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud
+{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.hiki
+{
+    font-size: 2.5rem;
+}
+.skill-row
+{
+    width: 50%;
+    /*padding-left: 25rem;
+    for centering the element*/
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /*line-height: 2;*/
+}
+.comp
+{
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.front
+{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.bio{
+    width: 30%;
+    margin: auto;
+}
+.mess {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover {
+    color: #eaf6f6;
+}
+.copy
+{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+/*.copy {
+    color: rgb(0, 0, 0);
+  text-shadow:
+    0 0 7px rgb(39, 22, 22),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px rgb(28, 23, 23),
+    0 0 42px rgb(0, 0, 0),
+    0 0 82px rgb(0, 0, 0),
+    0 0 92px rgb(0, 0, 0),
+    0 0 102px rgb(0, 0, 0),
+    0 0 151px rgb(0, 0, 0);
+}
+/*hr
+{
+    background-color: #eaf6f6;
+   /* border-style: dotted none none;*/
+ /*   border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 5%;
+    border-color: grey;
+    border-width: 5px;
+}
+/*
+.cp
+{
+    clear: left;
+}
+.fn
+{
+    clear: right;
+}*/
+/*#u
+{
+    color: red;
+}
+p{
+    color: rgb(0, 0, 0);
+}*/
